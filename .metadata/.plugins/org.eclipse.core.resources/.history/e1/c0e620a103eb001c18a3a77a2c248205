@@ -1,0 +1,21 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String day = "";
+		
+		if(day == "Monday") {
+			System.out.println("Today is Monday");
+		}else if(day == "Tuesday"){
+			System.out.println("Today is Tuesday");
+		}else if(day == "Wednesday"){
+			System.out.println("Today is Wednesday");
+		}else if(day == "Thursday") {
+			System.out.println("Today is Thursday");
+		}else {
+			System.out.println("It is the weekend");
+		}
+	}
+
+}

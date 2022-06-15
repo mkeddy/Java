@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+	String fruit = "Apple"; 
+	
+	switch(fruit) {
+	case "Apple":
+		System.out.println("Apple: This fruit costs €1");
+		break;
+	case "Banana":
+		System.out.println("Banana: This fruit costs €1.30");
+		break;
+	case "Orange":
+		System.out.println("Orange: This fruit costs €1.20");
+		break;
+	}
+		
+	}	
+
+}

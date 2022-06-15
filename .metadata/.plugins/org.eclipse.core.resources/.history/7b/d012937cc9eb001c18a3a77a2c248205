@@ -1,0 +1,61 @@
+
+public class Character {
+	
+	String name;
+	int ballondor;
+	int goals;
+	String brand;
+	
+	Character(String name, int ballondor, int goals, String brand) {
+		this.name = name;
+		this.ballondor = ballondor;
+		this.goals = goals;
+		this.brand = brand;
+	}
+	
+	//public Character(String name, int ballondor){
+	//	this.name = name;
+	//	this.ballondor = ballondor;
+	//}
+	
+	//Character(){}
+	
+	public void display() {
+		System.out.println("Name: " + name);
+		System.out.println("Ballon D'ors: " + ballondor);
+		System.out.println("No. Of Goals: " + goals);
+		System.out.println("Player Brand: " + brand);
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getBallondor() {
+		return ballondor;
+	}
+
+	public void setBallondor(int ballondor) {
+		this.ballondor = ballondor;
+	}
+
+	public int getGoals() {
+		return goals;
+	}
+
+	public void setGoals(int goals) {
+		this.goals = goals;
+	}
+
+	public String getBrand() {
+		return brand;
+	}
+
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+}

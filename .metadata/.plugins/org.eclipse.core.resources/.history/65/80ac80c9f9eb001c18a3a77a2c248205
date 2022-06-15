@@ -1,0 +1,50 @@
+
+public class Character {
+	
+	String name;
+	int chances;
+	int position;
+	
+	Character(String name, int chances, int position) {
+		this.name = name;
+		this.chances = chances;
+		this.position = position;
+	}
+	
+	public Character(String name, int chances){
+		this.name = name;
+		this.chances = chances;
+	}
+	
+	Character(){}
+	
+	public void display() {
+		System.out.println("Name: " + name);
+		System.out.println("Chances Left: " + chances);
+		System.out.println("Position: " + position);
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getChances() {
+		return chances;
+	}
+
+	public void setChances(int chances) {
+		this.chances = chances;
+	}
+
+	public int getPosition() {
+		return position;
+	}
+
+	public void setPosition(int position) {
+		this.position = position;
+	}
+}

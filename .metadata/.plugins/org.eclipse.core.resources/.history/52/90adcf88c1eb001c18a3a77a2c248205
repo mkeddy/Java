@@ -1,0 +1,26 @@
+
+public class Character {
+	
+	String name;
+	int ballondor;
+	int goals;
+	String brand;
+	
+	Character(String name, int ballondor, int goals, String brand) {
+		this.name = name;
+		this.ballondor = ballondor;
+		this.goals = goals;
+		this.brand = brand;
+	}
+	
+	public Character(String name, int ballondor){
+		this.name = name;
+		this.ballondor = ballondor;
+	}
+	
+	Character(){}
+	
+	printInfo(){
+		System.out.println(c.name);
+	}
+}

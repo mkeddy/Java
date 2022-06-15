@@ -1,0 +1,12 @@
+public class Main {
+
+	public static void main(String[] args) {
+		
+	AnotherJavaFile a1 = new AnotherJavaFile();
+	
+	a1.howOld();
+	a1.sayHello("Michael");
+	
+	}
+	
+}

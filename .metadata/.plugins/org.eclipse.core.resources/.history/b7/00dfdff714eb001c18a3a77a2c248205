@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		char operation;
+		Double num1,num2,result;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter first number");
+		
+		num1 = sc.nextDouble();
+		
+		System.out.println("Enter operation: + , - , * , / ");
+		
+		operation = sc.next().charAt(0);
+		
+		System.out.println("Enter second number");
+		
+		num2 = sc.nextDouble();
+		
+		if(operation == '+') {
+			result = num1+num2;
+			System.out.println(result);
+		}else if(operation == '-') {
+			result = num1-num2;
+			System.out.println(result);
+		}else if(operation == '*') {
+			result = num1*num2;
+			System.out.println(result);
+		}else if(operation == '/') {
+			result = num1/num2;
+			System.out.println(result);
+		}
+	}	
+
+}

@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int temp = 22;
+		
+		if(temp <= 20) {
+			System.out.println("Not hot");
+		}else {
+			System.out.println("very hot");
+		}
+	}
+
+}

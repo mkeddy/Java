@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//Character c = new Character();
+		
+		Character ronaldo = new Character("Cristiano Ronaldo", 5, 834 , "CR7");
+		//Character messi = new Character("Lionel Messi", 6, 784 , "Messi10");
+		
+		System.out.println(ronaldo.name + " " + ronaldo.ballondor+ " " + ronaldo.goals+ " " + ronaldo.brand);
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,18 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		printToScreen();
+		printToScreen2();
+
+	}
+	
+	public static void printToScreen() {
+		System.out.println("Hello World!");
+	}
+	
+	public static void printToScreen2() {
+		System.out.println("Goodbye World!");
+	}
+
+}

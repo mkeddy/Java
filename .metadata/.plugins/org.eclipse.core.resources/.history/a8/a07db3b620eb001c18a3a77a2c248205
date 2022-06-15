@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+	AnotherJavaFile a1 = new AnotherJavaFile();
+	System.out.println(a1.name + " is " + a1.age + " years old" );
+	
+	}
+	
+}

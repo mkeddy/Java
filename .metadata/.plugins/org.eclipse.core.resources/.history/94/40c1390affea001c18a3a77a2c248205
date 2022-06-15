@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int temp = 16;
+		
+		if(temp <= 20) {
+			System.out.println("Not hot");
+		}else if(temp >= 35){
+			System.out.println("Too hot, seek shade");
+		}else {
+			System.out.println("It s hot");
+		}
+	}
+
+}

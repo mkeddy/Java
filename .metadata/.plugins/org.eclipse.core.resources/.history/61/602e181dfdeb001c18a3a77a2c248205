@@ -1,0 +1,20 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//Character c = new Character();
+		
+		Map m = new Map(10, 10, 5, 5);
+		
+		Character ronaldo = new Character("Cristiano Ronaldo", 10, 5);
+		Character messi = new Character("Lionel Messi", 10, 5);
+		
+		ronaldo.display();
+		System.out.println("------------");
+		messi.display();
+	}
+	
+	
+
+}

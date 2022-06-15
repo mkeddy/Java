@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+	int i = 0;
+	
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.println("Please enter a value:");
+
+	String input = sc.nextLine();
+	int i2 = Integer.parseInt(input);
+	
+	while(i < i2) {
+		System.out.println("The value of i is:" + i);
+		i++;
+	}
+	System.out.println("end of loop");
+	}	
+	
+}

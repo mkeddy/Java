@@ -1,0 +1,10 @@
+
+public class Map {
+	int x; 
+	int y; 
+	int currentX; 
+	int currentY;
+	
+	Map(int x, int y, int currentX, int currentY) {
+	}
+}
